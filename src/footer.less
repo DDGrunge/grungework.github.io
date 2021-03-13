@@ -1,0 +1,95 @@
+.footer{
+    background-color: #fff;
+    padding-top: 115px;
+    padding-bottom: 125px;
+
+    &_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &_heading{
+        font-family: 'Gilroy-Bold';
+        font-size: 34px;
+        color: #070707;
+    }
+
+    &_textbox{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    &_text{
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        color: #070707;
+        text-align: center;
+    }
+
+    &_btn{
+        display: block;
+        margin-bottom: 85px;
+        padding: 13px 30px;
+        color: #fff;
+        background-color: #070707;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 18px;
+        font-family: 'Gilroy-Bold';
+        transform: scale(0.9);
+        box-shadow: 0px 0px 20px 0px rgba(34, 60, 80, 0.3);
+        transition: transform .2s linear, box-shadow .2s linear;
+        z-index: 1;
+    }
+
+    &_btn:hover{
+        transform: scale(1);
+        transition: all .2s linear;
+        box-shadow: 0px 15px 20px 0px rgba(34, 60, 80, 0.5);
+
+    }
+
+    &_subtext{
+        font-family: 'Gilroy-Medium';
+        font-size: 14px;
+        color: #828282;
+        text-align: center;
+    }
+
+    &_subtext:not(:last-of-type){
+        margin-top: 45px;
+    }
+}
+
+.media{
+    &_item{
+        font-size: 40px;
+        color: #070707;
+        transition: color .2s linear;
+    }
+
+    &_item:not(:last-of-type){
+        margin-right: 63px;
+    }
+}
+
+.linkedin:hover{
+    color: #0077b5;
+    transition: color .2s linear;
+}
+
+.insta:hover{
+    color: #dd2a7b;
+    transition: color .2s linear;
+}
+
+.behance:hover{
+    color: #053eff;
+    transition: color .2s linear;
+}
+
+.dribble:hover{
+    color: #ea4c89;
+    transition: color .2s linear;
+}
