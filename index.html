@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/753c45338f.js" crossorigin="anonymous"></script>
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav container">
+            <div class="nav_wrapper">
+                <a class="nav_link" href="#">Главная</a>
+                <a class="nav_link" href="#about">Обо мне</a>
+                <a class="nav_link" href="#skills">Навыки</a>
+                <a class="nav_link" href="#portfolio">Портфолио</a>
+                <a class="nav_link" href="#contacts">Контакты</a>
+            </div>
+        </nav>
+
+        <div class="info container">
+            <div class="hamdurger_button">
+                <input id="menu_toggle" type="checkbox">
+                <label class="menu_btn" for="menu_toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menu_box">
+                    <li class="menu_item"><a class="nav_link" href="#">Главная</a></li>
+                    <li class="menu_item"><a class="nav_link" href="#about">Обо мне</a></li>
+                    <li class="menu_item"><a class="nav_link" href="#skills">Навыки</a></li>
+                    <li class="menu_item"><a class="nav_link" href="#portfolio">Портфолио</a></li>
+                    <li class="menu_item"><a class="nav_link" href="#contacts">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="info_wrapper">
+                <h1 class="info_heading">Denis Novik</h1>
+                <p class="info_text">UX&nbsp;| UI&nbsp;designer 24&nbsp;years old, Minsk</p>
+            </div>
+            <img class="info_img" src="src/img/top.jpg" alt="photo">
+            <img class="info_mobile_img" src="src/img/top_mobile.jpg" alt="photo">
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <div class="about_wrapper">
+                <h1 class="about_heading">About Me</h1>
+                <p class="about_text">Hi, I&rsquo;m Denis&nbsp;&mdash; UX/UI designer from Minsk.</p>
+                <p class="about_text">I&rsquo;m interested in&nbsp;design and everything connected
+                    with&nbsp;it.
+                </p>
+                <p class="about_text about_txt_width">I&rsquo;m studying at&nbsp;courses &laquo;Web and mobile design
+                    interfaces&raquo; in&nbsp;IT-Academy.</p>
+                <p class="about_text about_txt_width">Ready to&nbsp;implement excellent projects
+                    with wonderful people.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="skills_wrapper container">
+                <h1 class="skills_heading">Skills</h1>
+                <p class="skills_subtext">I work in such programs as</p>
+                <div class="skills_box">
+                    <div class="skills_card">
+                        <img class="skills_card_img" src="src/img/ps.svg" alt="photo">
+                        <h1 class="skills_card_heading">Adobe Photoshop</h1>
+                        <div class="star_box">
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item star_grey"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                    <div class="skills_card">
+                        <img class="skills_card_img" src="src/img/ai.svg" alt="photo">
+                        <h1 class="skills_card_heading">Adobe Illustrator</h1>
+                        <div class="star_box">
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item star_grey"><i class="fas fa-star"></i></span>
+                            <span class="star_item star_grey"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                    <div class="skills_card">
+                        <img class="skills_card_img" src="src/img/AE.svg" alt="photo">
+                        <h1 class="skills_card_heading">Adobe After Effects</h1>
+                        <div class="star_box">
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item star_grey"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                    <div class="skills_card">
+                        <img class="skills_card_img" src="src/img/figma.svg" alt="photo">
+                        <h1 class="skills_card_heading heading_height">Figma</h1>
+                        <div class="star_box">
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item"><i class="fas fa-star"></i></span>
+                            <span class="star_item star_grey"><i class="fas fa-star"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="portfolio_wrapper container">
+                <h1 class="portfolio_heading">Portfolio</h1>
+                <img class="portfolio_store" src="src/img/web-store.jpg" alt="photo">
+                <p class="portfolio_text">Online fashion store - Homepage</p>
+                <img class="portfolio_reebok" src="src/img/reebok-store.jpg" alt="photo">
+                <p class="portfolio_text">Reebok Store - Concept</p>
+                <img class="portfolio_braun" src="src/img/braun-store.jpg" alt="photo">
+                <p class="portfolio_text">Braun Landing Page - Concept</p>
+            </div>
+        </section>
+
+        <footer id="contacts" class="footer">
+            <div class="footer_wrapper container">
+                <h1 class="footer_heading">Contacts</h1>
+                <div class="footer_textbox">
+                    <p class="footer_text">Want to know more or just chat?</p>
+                    <p class="footer_text">You are welcome!</p>
+                </div>
+                <a class="footer_btn" href="mailto:info@example.com">Send message</a>
+                <div class="footer_mediabox">
+                    <span class="media_item linkedin"><i class="fab fa-linkedin"></i></span>
+                    <span class="media_item insta"><i class="fab fa-instagram"></i></span>
+                    <span class="media_item behance"><i class="fab fa-behance-square"></i></span>
+                    <span class="media_item dribble"><i class="fab fa-dribbble"></i></span>
+                </div>
+                <p class="footer_subtext">Like me on</p>
+                <p class="footer_subtext">LinkedIn, Instagram, Behance, Dribble</p>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>
